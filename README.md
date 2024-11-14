@@ -1,5 +1,5 @@
 # Initial testing for Humanaut Onboarding
-By Kevin Nguyen
+By Kevin Nguyen\
 November 13, 2024
 
 ## Intro
