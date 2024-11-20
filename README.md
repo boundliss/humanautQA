@@ -1,5 +1,5 @@
 # Initial testing for Humanaut Onboarding
-By Kevin Nguyen
+By Kevin Nguyen\
 November 13, 2024
 
 ## Intro
@@ -53,6 +53,7 @@ From looking for solutions from various sources (i.e Reddit, StackOverflow, blog
     - Some services cost money (there are free tiers that are already pretty useful)
     - Lack of long term storage of emails (free tier limitation)
 
+For my implementation, I used an API called testsendr that allows you to create emails on the fly with the ending @testsendr.link. This API service allows for easy creation of new emails and parsing of emails with barely any setup.
   
 ## TODO
 - Create a more functions that eliminate reptitive tasks (i.e login, signup)

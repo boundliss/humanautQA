@@ -1,5 +1,10 @@
-
-// DOCUMENTATION FOR TESTSENDR: https://testsendr.link/docs/quick-start
+/* 
+ # commads.js
+ #
+ # Description: Initial set of commands shared by many tests
+ # By Kevin Nguyen
+ # November 13, 2024 
+ */
 
 
 Cypress.Commands.add('loginSignup', (emailUsername, isSignup) => {
@@ -20,6 +25,7 @@ Cypress.Commands.add('loginSignup', (emailUsername, isSignup) => {
   cy.wait(4000)
 
   // Make a request to get the most recently sent email from testsendr
+  // DOCUMENTATION FOR TESTSENDR: https://testsendr.link/docs/quick-start
   cy.request("GET", `https://api.testsendr.link/?email=${email}`, {
   }).then((response) => {
     // Makes sure response was successful and we were able to get the email
